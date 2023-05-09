@@ -13,7 +13,7 @@ public class Game {
 		Item[] items = Items.initItems();
 		Music.initSounds();
 		Music.getSound_GameMenu().start();
-		Player player = new Player("Max Power", (byte)100, (byte)100, (short)200,(short)200, null, null, (byte)10);
+		Player player = new Player("Max Power ooooo", (byte)100, (byte)100, (short)200,(short)200, null, null, (byte)10);
 		player.setCharacterSprites(Images.getCharacterSet((short)1));
 		Level level1 		= new Level( 1, 260, 260);
 		Screen screen 		= new Screen("Title", 656, 676);
