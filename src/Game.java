@@ -13,7 +13,7 @@ public class Game {
 		Item[] items = Items.initItems();
 		Music.initSounds();
 		Music.getSound_GameMenu().start();
-		Player player = new Player("Ismail", (byte)100, (byte)100, (short)200,(short)200, null, null, (byte)10);
+		Player player = new Player("Dennis", (byte)100, (byte)100, (short)200,(short)200, null, null, (byte)10);
 		player.setCharacterSprites(Images.getCharacterSet((short)1));
 		Level level1 		= new Level( 1, 260, 260);
 		Screen screen 		= new Screen("Title", 656, 676);
@@ -21,7 +21,7 @@ public class Game {
 		Movement control 	= new Movement(panel);
 		panel.setDoubleBuffered(true);
 		
-		//Nur für die präsentation
+		//Nur fï¿½r die prï¿½sentation
 		player.addItem(items[0]);
 		player.addItem(items[1]);
 		player.addItem(items[2]);
